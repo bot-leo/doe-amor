@@ -37,13 +37,13 @@ export const Link = styled.a`
   font-size: 20px;
 
 
-  +a{
+  & +a{
     margin-left: 2rem;
   };
 
   :active::after{
-    color:red;
     content: '';
+    color:red;
     height: 3px;
     width: 100%;
     position: absolute;

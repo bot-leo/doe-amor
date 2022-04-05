@@ -10,8 +10,8 @@ export function Header(){
       <Container>
         <Logo src="/imgs/logo-doeamor.svg" alt="Logo-doe-amor"/>
         <Menu>
-          <Link>Início</Link>
-          <Link>Hospital do amor</Link>
+          <Link href='/'>Início</Link>
+          <Link href='/HospitalAmor'>Hospital do amor</Link>
         </Menu>
       </Container>
     </HeaderContainer>

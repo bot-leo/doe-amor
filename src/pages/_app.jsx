@@ -3,6 +3,7 @@ import {ThemeProvider} from 'styled-components'
 
 import '../styles/globalStyle.css'
 import themeGlobal from '../styles/themeGlobal'
+import { Footer } from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
   return(
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={themeGlobal}>
         <Header/>
         <Component {...pageProps} />
+        <Footer/>
       </ThemeProvider>
     </>
   )
