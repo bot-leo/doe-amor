@@ -6,8 +6,7 @@ export const ContainerCard = styled.div`
   display: flex;
   flex-direction: column;
 
-  align-items: center;
-
+  align-items: center;;
 `
 
 export const ContainerIconCard = styled.div`

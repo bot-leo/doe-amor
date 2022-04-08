@@ -1,19 +1,19 @@
-import { Header } from '../components/Header'
 import {ThemeProvider} from 'styled-components'
 
-import '../styles/globalStyle.css'
-import themeGlobal from '../styles/themeGlobal'
+import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
+
+import GlobalStyle from '../styles/global'
+import theme from '../styles/theme'
 
 function MyApp({ Component, pageProps }) {
   return(
-    <>
-      <ThemeProvider theme={themeGlobal}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle/>
         <Header/>
-        <Component {...pageProps} />
+          <Component {...pageProps} />
         <Footer/>
       </ThemeProvider>
-    </>
   )
 }
 
