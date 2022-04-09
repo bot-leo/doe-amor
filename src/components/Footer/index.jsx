@@ -1,12 +1,86 @@
+import theme from "../../styles/theme"
+import { GenericText } from "../GenericText"
+import { Container, ContainerPrimary, ContainerSecondary } from "./style"
+
 export function Footer(){
   return(
-    <div>
-      <div>
-        <span>Regras oficiais</span>
-      </div>
-      <div>
-        <img src="/imgs/logo-doeamor.svg" style={{width:160}} />
-      </div>
-    </div>
+    <Container>
+
+      <ContainerPrimary>
+
+        <div>
+          <GenericText size={'40px'}
+                       weight={700}
+                       color={theme.colors.gray1}>Regras oficiais</GenericText>
+          <GenericText weight={400}
+          color={theme.colors.gray1}>Entenda todos os detalhes dos sorteios.</GenericText>
+        </div>
+
+        <div style={{marginTop:56}}>
+          <GenericText size={'40px'}
+                        color={theme.colors.gray1}>Nossos parceiros</GenericText>
+          
+          <div style={{display:"flex", flexDirection:"row", width:"100%", justifyContent:"space-between", marginTop:40, flexWrap:"wrap"}}>
+            <img src="/imgs/imagem-kpmg-logo.png" style={{width:290, height:150}}/>
+            <img src="/imgs/imagem-festa-piao-barreto-logo.png" style={{width:210, height:150}}/>
+            <img src="/imgs/imagem-hospital-do-amor.png" style={{width:290, height:150}}/>
+          </div>
+        </div>
+
+        <GenericText size={'30px'}
+                     color={theme.colors.gray1}>Sorteios seguros</GenericText>
+                      <div style={{marginTop:40, display:"flex", flexDirection:"row", flexWrap:"wrap"}}>
+                        <div >
+                          <GenericText text={'Sorteios autorizados'}
+                                       size={'20px'}/>
+                          <GenericText
+                                       weight={400}
+                                       color={theme.colors.gray3}>
+                                         Sorteios autorizados pela Secretaria de Avaliação,<br/>
+                                        Planejamento, Energia e Loteria do Ministério da<br/>
+                                         Economia (Secap/ME), conforme Lei nº 14.027/2020
+                                       </GenericText>
+                          <GenericText text={'Ver certificado'}/>
+                        </div>
+
+                        <div style={{}}>
+                          <GenericText text={'Processo auditado'}/>
+                          <div style={{display:"flex"}}>
+                            <img src="/imgs/imagem-kpmg-logo.png" style={{width:180, height:80}}/>
+                            <img src="/imgs/imagem-caixa-logo.png"/>
+                          </div>
+                        </div>
+                      </div>
+
+
+      </ContainerPrimary>
+      <ContainerSecondary>
+        <div style={{width:290}}>
+          <img src="/imgs/logo-doeamor.svg" style={{width:160}} />
+          <GenericText text={'Copyright © 2021, DoeAmor, ONG. Todos os direitos reservados.'}  weight={400}/>
+        </div>
+        <div  style={{width:175}}>
+          <GenericText text={'Acesse também'}/>
+          <GenericText text={'Regras oficiais'} weight={400}/>
+          <GenericText text={'Transparência'} weight={400}/>
+          <GenericText text={'Termos de uso'} weight={400}/>
+          <GenericText text={'Politicas de privacidade'} weight={400}/>
+
+        </div>
+        <div  style={{width:190}}>
+          <GenericText text={'Fale conosco'}/>
+          <GenericText text={'E-mail'}/>
+          <GenericText text={'contato@doeamor.org.br'}  weight={400}/>
+          <GenericText text={'Redes sociais'}/>
+          <div>
+
+          </div>
+        <div>
+           
+        </div>
+
+        </div>
+      </ContainerSecondary>
+    </Container>
   )
 }

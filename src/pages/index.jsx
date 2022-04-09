@@ -1,5 +1,4 @@
 import  Head  from "next/head"
-import Image from 'next/image'
 
 import { Button } from "../components/Button"
 import { CardInfo } from "../components/CardInfo"
@@ -9,7 +8,6 @@ import theme from "../styles/theme"
 import { ContainerExampleCards,
          ContentContainer,
          Main, 
-         Section,
          SectionCollection,
          SectionExample,
          SectionGoals,
@@ -155,12 +153,16 @@ export default function Home(){
             </div>
             
             
-            <div style={{width:"100%", display:"flex", alignItems:"center", marginTop:40}}>
+            <div style={{width:"100%", 
+                         display:"flex", 
+                         alignItems:"center", 
+                         marginTop:40 , 
+                         justifyContent:'space-between'}}
+            >
               <Button titleButotn={'Quero doar e concorrer'} primary_1/>
               <Button titleButotn={'Saiba mais'}/>
             </div>
           </div>
-          {/* <GenericImg src="/imgs/imagem-garotinho-cancer.png" alt="Garotinha"/> */}
         </SectionGoals>
       </Main>
     </>

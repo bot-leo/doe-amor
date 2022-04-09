@@ -105,15 +105,3 @@ export const SectionGoals = styled.section`
   padding-inline: 150px;
 `
 
-
-
-
-
-
-export const TextGenericRegular = styled.text`
-  font-family: 'Open Sans';
-  font-weight: 400;
-`
-
-
-
