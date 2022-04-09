@@ -1,5 +1,3 @@
-import  Head  from "next/head"
-
 import { Button } from "../components/Button"
 import { CardInfo } from "../components/CardInfo"
 import { GenericText } from "../components/GenericText"
@@ -13,13 +11,12 @@ import { ContainerExampleCards,
          SectionGoals,
          SectionInformation,
          SectionValues } from "../styles/pages/Home"
+import ComponentHead from "../components/ComponentHead"
 
 export default function Home(){
   return(
     <>
-      <Head>
-        <title>Inicio</title>
-      </Head>
+      <ComponentHead title={'Inicio'}/>
       <Main>
 
         <SectionCollection>

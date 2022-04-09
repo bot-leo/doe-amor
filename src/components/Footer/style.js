@@ -1,9 +1,11 @@
 import styled from "styled-components"
 
 export const Container = styled.footer`
- 
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 `
+
 
 export const ContainerPrimary = styled.div`
   padding-block: 5%;
@@ -21,7 +23,7 @@ export const ContainerSecondary = styled.div`
 
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-between;
 `

@@ -1,9 +1,12 @@
 import { SingleText } from "./style"
 
-export function GenericText({text,children, ...props}){
+export function GenericText({text, 
+                             href, 
+                             style, 
+                             children, ...props}){
   return(
-    <SingleText {...props}>
-      {text || children}
+    <SingleText {...props} style={style}>
+        {text || children}
     </SingleText>
   )
 }

@@ -1,3 +1,4 @@
+import { Button } from '../Button'
 import {HeaderContainer,
         Container,
         Logo,
@@ -13,6 +14,8 @@ export function Header(){
           <Link href='/'>Início</Link>
           <Link href='/HospitalAmor'>Hospital do amor</Link>
         </Menu>
+
+        <Button titleButotn={"Quero doar e concorrer"} primary_1/>
       </Container>
     </HeaderContainer>
   )

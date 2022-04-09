@@ -15,6 +15,10 @@ export const HeaderContainer = styled.header`
       display: none;
     }
   }
+
+  button{
+    margin: auto;
+  }
 `
 
 export const Container = styled.div`
@@ -29,6 +33,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  
 `
 
 export const Logo = styled.img`

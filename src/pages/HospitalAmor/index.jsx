@@ -1,7 +1,7 @@
 import { Button } from "../../components/Button"
 import { CardInfo } from "../../components/CardInfo"
 import { GenericText } from "../../components/GenericText"
-import ComponentHead from "../../components/Head"
+import ComponentHead from "../../components/ComponentHead"
 import theme from "../../styles/theme"
 import { Main, SectionFinaly, SectionPrimary, SectionSecundary } from "./style"
 
