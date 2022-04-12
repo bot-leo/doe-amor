@@ -98,7 +98,7 @@ export function Footer(){
               <NavLink textLink={'Termos de uso'} href={'/RegrasOficiais'}/><br/>
             </div>
             <div style={{marginTop:16}}>
-              <NavLink textLink={'Politicas de privacidade'} href={'/RegrasOficiais'}/>
+              <NavLink textLink={'Politicas de privacidade'} href={'/Experiencia'}/>
             </div>
           </div>
         </div>
