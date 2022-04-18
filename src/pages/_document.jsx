@@ -13,6 +13,10 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
           
           <link rel="shortcut icon" href="favicon.png" type="image/png" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/react-modal/3.14.3/react-modal.min.js"
+          integrity="sha512-MY2jfK3DBnVzdS2V8MXo5lRtr0mNRroUI9hoLVv2/yL3vrJTam3VzASuKQ96fLEpyYIT4a8o7YgtUs5lPjiLVQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"></script>
         </Head>
         <body>
           <Main />

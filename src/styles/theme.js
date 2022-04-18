@@ -13,7 +13,8 @@ const theme = {
     green3:"#24ED8F",
     red:"#FF4141",
     purple1:"#BD00B3",
-    purple2:"#EF61E8"
+    purple2:"#EF61E8",
+    yallow:'#FFD43E'
   }
 }
 export default theme

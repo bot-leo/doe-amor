@@ -13,11 +13,15 @@ import { ContainerExampleCards,
          SectionValues } from "../styles/pages/Home"
 import ComponentHead from "../components/ComponentHead"
 
+
 export default function Home(){
+  
+  
   return(
     <>
       <ComponentHead title={'Inicio'}/>
       <Main>
+     
 
         <SectionCollection>
           <ContentContainer>
